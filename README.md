@@ -1,5 +1,6 @@
 # react-trix-editor
 
+[![npm version](https://badge.fury.io/js/react-trix-editor.svg)](https://badge.fury.io/js/react-trix-editor)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
 A React component for [Trix](https://github.com/basecamp/trix).

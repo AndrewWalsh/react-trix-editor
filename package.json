@@ -1,6 +1,6 @@
 {
   "name": "react-trix-editor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React component for Basecamp's Trix text editor",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
