@@ -1,0 +1,52 @@
+{
+  "name": "react-trix-editor",
+  "version": "1.0.0",
+  "description": "A React component for Basecamp's Trix text editor",
+  "main": "lib/index.js",
+  "jsnext:main": "es/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && npm clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {
+    "trix": "^0.9.10"
+  },
+  "peerDependencies": {
+    "react": "15.x"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.10.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.7.1",
+    "expect": "^1.20.2",
+    "nwb": "0.12.x",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
+  "author": "AndrewGHC",
+  "homepage": "https://github.com/AndrewGHC/react-trix-editor",
+  "license": "MIT",
+  "repository": "https://github.com/AndrewGHC/react-trix-editor",
+  "keywords": [
+    "react",
+    "trix",
+    "text editor",
+    "wysiwyg",
+    "ui",
+    "component",
+    "components",
+    "react-component"
+  ]
+}
