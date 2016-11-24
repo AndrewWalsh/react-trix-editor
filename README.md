@@ -62,5 +62,5 @@ class ReactTrixEditorDemo extends Component {
 
 ## Notes
 
-- `onEditor` passes two arguments - the Trix editor object and the Trix DOM node in case you wish to add your own event listeners.
+- `onEditor` passes a Trix editor object that can be used to programmatically change the text editor.
 - `input` is a unique ID for a hidden input element used by Trix. You only need to ensure this is unique if you have multiple instances of this component on a single page.
