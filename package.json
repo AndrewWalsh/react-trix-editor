@@ -1,16 +1,8 @@
 {
   "name": "react-trix-editor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component for Basecamp's Trix text editor",
-  "main": "lib/index.js",
-  "jsnext:main": "es/index.js",
-  "module": "es/index.js",
-  "files": [
-    "css",
-    "es",
-    "lib",
-    "umd"
-  ],
+  "main": "src/index.js",
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && npm clean-demo",
@@ -18,6 +10,9 @@
     "test": "nwb test",
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
+  },
+  "bugs": {
+    "url": "https://github.com/AndrewGHC/react-trix-editor/issues"
   },
   "dependencies": {
     "trix": "^0.9.10"
