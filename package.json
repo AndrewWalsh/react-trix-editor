@@ -1,8 +1,8 @@
 {
   "name": "react-trix-editor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React component for Basecamp's Trix text editor",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && npm clean-demo",
@@ -31,9 +31,12 @@
     "react-dom": "^15.4.0"
   },
   "author": "AndrewGHC",
-  "homepage": "https://github.com/AndrewGHC/react-trix-editor",
   "license": "MIT",
-  "repository": "https://github.com/AndrewGHC/react-trix-editor",
+  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewGHC/react-trix-editor"
+  },
   "keywords": [
     "react",
     "trix",
